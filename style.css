@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+@font-face {
+    font-family: 'Norse-Bold';
+    src: url(fonts/Norse-Bold.otf);
+}
+
+:root {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    font-family: 'Roboto';
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+.left-container {
+    background-image: url(images/background.avif);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+
+.brand {
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    margin-top: 25vh;
+}
+
+.brand img {
+    width: 15%;
+    height: auto;
+}
+
+.brand h1 {
+    font-family: 'Norse-Bold';
+    font-size: 7rem;
+    font-weight: 900;
+    color: white;
+}
+
+.credits {
+    color: white;
+    margin-top: auto;
+    align-self: center;
+    margin-bottom: 15px;
+}
+
+.credits a {
+    color: white;
+}
+
+.right-container {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 0 50px;
+    margin-bottom: 80px;
+}
+
+.section-2 {
+    display: flex;
+    flex-direction: column;
+}
+
+fieldset {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 50px;
+    row-gap: 15px;
+    border: none;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+    padding: 20px 50px 50px 50px;
+}
+
+label {
+    font-size: 1.2rem;
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+.form-title {
+    width: 100%;
+    font-weight: 600;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+button {
+    margin: 30px 50px;
+    padding: 12px 45px;
+    border-radius: 10px;
+    border: none;
+    background-color: #596d48;
+    color: white;
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+.login-link {
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin-left: 50px;
+}
+
+h1 {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+label {
+    font-size: 0.7rem;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+}
+
+input {
+    border: 1px solid #e5e7eb;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+input:invalid {
+    border: 1px solid red;
+}
